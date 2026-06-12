@@ -25,17 +25,17 @@ Nur wer die Aufgaben richtig löst, kann aus der Prüfung entkommen.
 
 # Funktionen (geplant)
 
-- [] Spielstart
-- [] Spielername
-- [] Erstes Zimmer
-- [] Erste Quizfrag
-- [ ] Lebenssystem
-- [ ] Inventarsystem
-- [ ] Zeitlimit
-- [ ] Mehrere Räume
-- [ ] Speicherfunktion
-- [ ] Verschiedene Enden
-- [ ] Endgegner „Professor SyntaxError“
+-  Spielstart
+-  Spielername
+-  Erstes Zimmer
+-  Erste Quizfrag
+-  Lebenssystem
+-  Inventarsystem
+-  Zeitlimit
+-  Mehrere Räume
+-  Speicherfunktion
+-  Verschiedene Enden
+-  Endgegner „Professor SyntaxError“
 
 ---
 
