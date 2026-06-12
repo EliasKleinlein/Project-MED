@@ -25,10 +25,10 @@ Nur wer die Aufgaben richtig löst, kann aus der Prüfung entkommen.
 
 # Funktionen (geplant)
 
-- [x] Spielstart
-- [x] Spielername
-- [x] Erstes Zimmer
-- [x] Erste Quizfrage
+- [] Spielstart
+- [] Spielername
+- [] Erstes Zimmer
+- [] Erste Quizfrag
 - [ ] Lebenssystem
 - [ ] Inventarsystem
 - [ ] Zeitlimit
