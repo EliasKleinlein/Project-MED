@@ -1,23 +1,16 @@
-# --- ERWEITERUNG: RAUM 2 (INDEX-FRAGE) ---
-        print("\n--- RAUM 2: DIE DATEN-BIBLIOTHEK ---")
-        print("Du betrittst eine Bibliothek voller Listen.")
-        print("Ein Geist erscheint und zeigt auf eine Liste: ['Python', 'Java', 'C++']")
-        
-        quiz_index = input("An welcher Stelle (Index) steht 'Python' in dieser Liste? (0, 1 oder 2): ")
-        
-        if quiz_index == "0":
-            print("\nDer Geist nickt: 'Korrekt! In Python fängt man bei 0 an zu zählen.'")
-            print("Er gibt dir einen 'Daten-Kristall' für dein Inventar.")
-            inventar.append("Daten-Kristall")
-            print(f"Dein Inventar enthält jetzt: {inventar}")
-        else:
-            leben -= 1
-            print("\nDer Geist schüttelt den Kopf: 'Falsch!'")
-            print(f"Ein Leben verloren. Deine Leben: {leben}")
-        
-        # Prüfung, ob das Spiel weitergeht
-        if leben <= 0:
-            print("\nGAME OVER")
-        else:
-            print("\nDu gehst weiter durch den Gang...")
+# --- RAUM 2: DIE DATEN-BIBLIOTHEK ---
+print("\n--- RAUM 2: DIE DATEN-BIBLIOTHEK ---")
+print("Hier stehen tausende Bücher über Datenstrukturen.")
+print("Um den Ausgang zu finden, musst du ein Rätsel lösen.")
 
+antwort3 = input("Wie nennt man eine Liste in Python, die man NICHT mehr verändern kann? (Tipp: fängt mit 'T' an): ")
+
+if antwort3.lower() == "tuple" or antwort3.lower() == "tupel":
+    print("\n🔓 Großartig! Die finale Geheimtür öffnet sich!")
+    if "Schlüssel" in inventar:
+        print("🔑 Du benutzt den Schlüssel aus Raum 1 und schließt das Tor auf!")
+        print("🏆 FREIHEIT! Du hast die Python-Prüfung erfolgreich überstanden!")
+    else:
+        print("🔒 Die Tür ist abgeschlossen und du hast keinen Schlüssel in Raum 1 gefunden... Du bist gefangen!")
+else:
+    print("\n❌ Falsche Antwort! Die Bibliothek stürzt über dir zusammen. Game Over!")
